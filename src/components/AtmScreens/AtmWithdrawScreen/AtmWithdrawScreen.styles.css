@@ -1,0 +1,17 @@
+.atm-withdraw-screen__title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.atm-withdraw-screen__input-error {
+  color: #ff0000;
+  text-align: center;
+}
+
+.atm-withdraw-screen__buttons-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
+  gap: 0.8rem;
+}
